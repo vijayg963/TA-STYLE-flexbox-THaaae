@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /* custom css */
+
+ header, footer{
+     height: 100px;
+     background-color: #222946;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 75px;
+ }
+ a{
+     text-decoration: none;
+     font-size: 22px;
+     color: white;
+     margin-left: 20px;
+ }
+ 
+ aside{
+     flex-basis: 28%;
+     border-radius: 20px;
+     background-color: #A3CAEA;
+     display: flex;
+     flex-direction: column;
+ }
+ main{
+     padding: 30px;
+     flex-basis: 62%;
+     background-color: #F2F8FD;
+     display: flex;
+     border-radius: 4%;
+     flex-direction: column;
+ }
+h1{
+    margin: 20px 0;
+    font-size: 32px;
+    color: #222946;
+    font-weight: bolder;
+}
+p{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #222946;
+    text-align: start;
+}
+.btn{
+    color: white;
+    background-color: #45B768;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.main-body{
+    line-height: 40px;
+    padding: 75px;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 ;
+    justify-content: space-between;
+}
+.menu{
+    padding: 25px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.menu, div{
+    margin: 10px 0;
+}
+.log{
+    height: 50px;
+    border-radius: 8px;
+    background-color: white;
+}
+.menu-text-color{
+    color: #222946;
+    font-weight: bold;
+}
+.article-logo{
+    border-radius: 10px;
+     border: 5px solid #FC7C3F;
+}
